@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_Form">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/login_text"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:text="LOGIN"
+            android:textAlignment="center"
+            android:textSize="80px"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/User"
+                android:layout_width="93dp"
+                android:layout_height="38dp"
+                android:layout_weight="1"
+                android:text="Username"
+                android:textAlignment="center"
+                android:textSize="65px" />
+
+            <EditText
+                android:id="@+id/editUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="text"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Password"
+                android:layout_width="101dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Password"
+                android:textSize="65px"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/editPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:text="" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="217dp"
+            android:layout_height="70dp"
+            android:text="Login"
+            android:layout_marginLeft="100dp"
+            android:textSize="50px" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
