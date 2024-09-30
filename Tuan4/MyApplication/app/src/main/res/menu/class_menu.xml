@@ -1,0 +1,10 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/add_class"
+        android:title="Thêm lớp" />
+    <item
+        android:id="@+id/delete_class"
+        android:title="Xoá lớp" />
+</menu>
