@@ -87,7 +87,7 @@ public class ClassDetailActivity extends AppCompatActivity {
             if (s != null) {
                 TextView idTextView = v.findViewById(R.id.studentID);
                 TextView nameTextView = v.findViewById(R.id.studentName);
-                TextView yearTextView = v.findViewById(R.id.studentYear);
+                TextView yearTextView = v.findViewById(R.id.yearBirth);
 
                 if (idTextView != null) idTextView.setText(String.valueOf(s.getStudentID()));
                 if (nameTextView != null) nameTextView.setText(s.getStudentName());
