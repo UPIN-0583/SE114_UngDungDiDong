@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_add_contact"
+        android:title="Thêm danh bạ"
+        android:orderInCategory="1"
+        android:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_delete_contact"
+        android:title="Xoá danh bạ"
+        android:orderInCategory="2"
+        android:showAsAction="never"/>
+
+</menu>
